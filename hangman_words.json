@@ -1,1085 +1,518 @@
 [
-    {
+  {
     "language": "en",
     "categories": [
-    {
+      {
         "category": "Fruit",
-        "words": [
-            "APPLE",
-            "ORANGE",
-            "STRAWBERRY",
-            "GRAPE",
-            "PEAR",
-            "LEMON",
-            "AVOCADO",
-            "KIWI",
-            "GUAVA",
-            "PINEAPPLE",
-            "MANGO",
-            "CHERRY",
-            "WATERMELON",
-            "BLUEBERRY",
-            "RASPBERRY",
-            "PEACH",
-            "PLUM",
-            "COCONUT"
-        ]
-    },
-    {
+        "words": ["APPLE", "ORANGE", "STRAWBERRY", "GRAPE", "PEAR", "LEMON", "AVOCADO", "KIWI", "GUAVA", "PINEAPPLE", "MANGO", "CHERRY", "WATERMELON", "BLUEBERRY", "RASPBERRY", "PEACH", "PLUM", "COCONUT"]
+      },
+      {
         "category": "Country",
-        "words": [
-            "GERMANY",
-            "BRAZIL",
-            "FRANCE",
-            "CANADA",
-            "JAPAN",
-            "MEXICO",
-            "SPAIN",
-            "PORTUGAL",
-            "CHILE",
-            "ARGENTINA",
-            "ITALY",
-            "CHINA",
-            "RUSSIA",
-            "INDIA",
-            "AUSTRALIA",
-            "ENGLAND",
-            "SWEDEN",
-            "NORWAY",
-            "EGYPT"
-        ]
-    },
-    {
+        "words": ["GERMANY", "BRAZIL", "FRANCE", "CANADA", "JAPAN", "MEXICO", "SPAIN", "PORTUGAL", "CHILE", "ARGENTINA", "ITALY", "CHINA", "RUSSIA", "INDIA", "AUSTRALIA", "ENGLAND", "SWEDEN", "NORWAY", "EGYPT"]
+      },
+      {
         "category": "Food",
-        "words": [
-            "PIZZA",
-            "BURGER",
-            "PASTA",
-            "SUSHI",
-            "SANDWICH",
-            "OMELET",
-            "SALAD",
-            "SOUP",
-            "STEAK",
-            "PANCAKE",
-            "TACO",
-            "LASAGNA",
-            "BREAD",
-            "RICE",
-            "NOODLES",
-            "CHOCOLATE",
-            "HOTDOG",
-            "FRIES",
-            "COOKIE",
-            "CHEESE"
-        ]
-    },
-    {
+        "words": ["PIZZA", "BURGER", "PASTA", "SUSHI", "SANDWICH", "OMELET", "SALAD", "SOUP", "STEAK", "PANCAKE", "TACO", "LASAGNA", "BREAD", "RICE", "NOODLES", "CHOCOLATE", "HOTDOG", "FRIES", "COOKIE", "CHEESE"]
+      },
+      {
         "category": "Kitchen Objects",
-        "words": [
-            "SPOON",
-            "FORK",
-            "KNIFE",
-            "PLATE",
-            "GLASS",
-            "PAN",
-            "POT",
-            "BOWL",
-            "CUP",
-            "STOVE",
-            "MICROWAVE",
-            "BLENDER",
-            "FRIDGE",
-            "TOASTER",
-            "OVEN",
-            "KETTLE",
-            "GRATER",
-            "LADLE",
-            "TRAY"
-        ]
-    },
-    {
+        "words": ["SPOON", "FORK", "KNIFE", "PLATE", "GLASS", "PAN", "POT", "BOWL", "CUP", "STOVE", "MICROWAVE", "BLENDER", "FRIDGE", "TOASTER", "OVEN", "KETTLE", "GRATER", "LADLE", "TRAY"]
+      },
+      {
         "category": "Animal",
-        "words": [
-            "DOG",
-            "CAT",
-            "ELEPHANT",
-            "TIGER",
-            "LION",
-            "BEAR",
-            "HORSE",
-            "COW",
-            "SHEEP",
-            "GOAT",
-            "MONKEY",
-            "KANGAROO",
-            "ZEBRA",
-            "FOX",
-            "WOLF",
-            "GIRAFFE",
-            "RABBIT",
-            "DOLPHIN",
-            "EAGLE",
-            "CROCODILE"
-        ]
-    },
-    {
+        "words": ["DOG", "CAT", "ELEPHANT", "TIGER", "LION", "BEAR", "HORSE", "COW", "SHEEP", "GOAT", "MONKEY", "KANGAROO", "ZEBRA", "FOX", "WOLF", "GIRAFFE", "RABBIT", "DOLPHIN", "EAGLE", "CROCODILE"]
+      },
+      {
         "category": "Vehicle",
-        "words": [
-            "CAR",
-            "TRUCK",
-            "BUS",
-            "BICYCLE",
-            "MOTORCYCLE",
-            "TRAIN",
-            "AIRPLANE",
-            "HELICOPTER",
-            "BOAT",
-            "SUBMARINE",
-            "TRACTOR",
-            "SCOOTER",
-            "AMBULANCE",
-            "TAXI",
-            "JET",
-            "VAN",
-            "FERRY",
-            "CRUISE",
-            "BOAT"
-        ]
-    },
-    {
+        "words": ["CAR", "TRUCK", "BUS", "BICYCLE", "MOTORCYCLE", "TRAIN", "AIRPLANE", "HELICOPTER", "BOAT", "SUBMARINE", "TRACTOR", "SCOOTER", "AMBULANCE", "TAXI", "JET", "VAN", "FERRY", "CRUISE"]
+      },
+      {
         "category": "Color",
-        "words": [
-            "RED",
-            "BLUE",
-            "GREEN",
-            "YELLOW",
-            "ORANGE",
-            "PURPLE",
-            "PINK",
-            "BLACK",
-            "WHITE",
-            "BROWN",
-            "GRAY",
-            "CYAN",
-            "MAGENTA",
-            "BEIGE",
-            "GOLD",
-            "SILVER",
-            "VIOLET",
-            "INDIGO",
-            "MAROON"
-        ]
-    },
-    {
+        "words": ["RED", "BLUE", "GREEN", "YELLOW", "ORANGE", "PURPLE", "PINK", "BLACK", "WHITE", "BROWN", "GRAY", "CYAN", "MAGENTA", "BEIGE", "GOLD", "SILVER", "VIOLET", "INDIGO", "MAROON"]
+      },
+      {
         "category": "Brand",
-        "words": [
-            "NIKE",
-            "ADIDAS",
-            "APPLE",
-            "SAMSUNG",
-            "MICROSOFT",
-            "TESLA",
-            "HONDA",
-            "SONY",
-            "AMAZON",
-            "GOOGLE",
-            "PEPSI",
-            "FERRARI",
-            "MERCEDES",
-            "SUBWAY"
-        ]
-    },
-    {
+        "words": ["NIKE", "ADIDAS", "APPLE", "SAMSUNG", "MICROSOFT", "TESLA", "HONDA", "SONY", "AMAZON", "GOOGLE", "PEPSI", "FERRARI", "MERCEDES", "SUBWAY"]
+      },
+      {
         "category": "Drink",
-        "words": [
-            "WATER",
-            "COFFEE",
-            "TEA",
-            "JUICE",
-            "MILK",
-            "SODA",
-            "WINE",
-            "BEER",
-            "WHISKEY",
-            "VODKA",
-            "SMOOTHIE",
-            "MILKSHAKE",
-            "ENERGYDRINK",
-            "LEMONADE",
-            "MOJITO",
-            "CHAMPAGNE",
-            "LATTE",
-            "ESPRESSO",
-            "COLA",
-            "COCONUTWATER"
-        ]
-    },
-    {
+        "words": ["WATER", "COFFEE", "TEA", "JUICE", "MILK", "SODA", "WINE", "BEER", "WHISKEY", "VODKA", "SMOOTHIE", "MILKSHAKE", "ENERGYDRINK", "LEMONADE", "MOJITO", "CHAMPAGNE", "LATTE", "ESPRESSO", "COLA", "COCONUTWATER"]
+      },
+      {
         "category": "Musical Instruments",
-        "words": [
-            "GUITAR",
-            "PIANO",
-            "DRUMS",
-            "VIOLIN",
-            "FLUTE",
-            "TRUMPET",
-            "SAXOPHONE",
-            "HARP",
-            "CELLO",
-            "BASS",
-            "CLARINET",
-            "UKULELE",
-            "TROMBONE",
-            "HARMONICA",
-            "BANJO",
-            "XYLOPHONE",
-            "BONGO",
-            "ORGAN"
-        ]
-    },
-    {
+        "words": ["GUITAR", "PIANO", "DRUMS", "VIOLIN", "FLUTE", "TRUMPET", "SAXOPHONE", "HARP", "CELLO", "BASS", "CLARINET", "UKULELE", "TROMBONE", "HARMONICA", "BANJO", "XYLOPHONE", "BONGO", "ORGAN"]
+      },
+      {
         "category": "Sports",
-        "words": [
-            "FOOTBALL",
-            "BASKETBALL",
-            "SOCCER",
-            "TENNIS",
-            "BASEBALL",
-            "VOLLEYBALL",
-            "HOCKEY",
-            "GOLF",
-            "RUNNING",
-            "CYCLING",
-            "BOXING",
-            "JUMPROPE",
-            "GYM",
-            "YOGA",
-            "CROSSFIT",
-            "FIGHT",
-            "CHESS"
-        ]
-    },
-    {
+        "words": ["FOOTBALL", "BASKETBALL", "SOCCER", "TENNIS", "BASEBALL", "VOLLEYBALL", "HOCKEY", "GOLF", "RUNNING", "CYCLING", "BOXING", "JUMPROPE", "GYM", "YOGA", "CROSSFIT", "FIGHT", "CHESS"]
+      },
+      {
         "category": "Home Appliances",
-        "words": [
-            "REFRIGERATOR",
-            "COOKER",
-            "MICROWAVE",
-            "BLENDER",
-            "FREEZER",
-            "OVEN",
-            "TOASTER",
-            "FAN",
-            "MIXER",
-            "DRYER",
-            "GRILL"
-        ]
-    },
-    {
+        "words": ["REFRIGERATOR", "COOKER", "MICROWAVE", "BLENDER", "FREEZER", "OVEN", "TOASTER", "FAN", "MIXER", "DRYER", "GRILL"]
+      },
+      {
         "category": "Verbs",
-        "words": [
-            "EAT",
-            "DRINK",
-            "SLEEP",
-            "WORK",
-            "PLAY",
-            "READ",
-            "WATCH",
-            "LISTEN",
-            "SING",
-            "DANCE",
-            "RUN",
-            "JUMP",
-            "NEED",
-            "BUY",
-            "HAVE",
-            "GET",
-            "LOSE",
-            "WIN",
-            "WANT",
-            "FEEL",
-            "TAKE",
-            "FIND",
-            "MAKE",
-            "HELP",
-            "LOOK",
-            "TELL",
-            "SPEAK",
-            "FIGHT"
-        ]
-    },
-    {
+        "words": ["EAT", "DRINK", "SLEEP", "WORK", "PLAY", "READ", "WATCH", "LISTEN", "SING", "DANCE", "RUN", "JUMP", "NEED", "BUY", "HAVE", "GET", "LOSE", "WIN", "WANT", "FEEL", "TAKE", "FIND", "MAKE", "HELP", "LOOK", "TELL", "SPEAK", "FIGHT"]
+      },
+      {
         "category": "Feelings",
-        "words": [
-            "FEAR",
-            "LOVE",
-            "HAPPY",
-            "ANGRY",
-            "SAD",
-            "CONFUSED",
-            "SURPRISED",
-            "SCARED",
-            "WORRIED",
-            "HUNGRY",
-            "THIRSTY",
-            "SICK",
-            "NERVOUS",
-            "GRATEFUL"
+        "words": ["FEAR", "LOVE", "HAPPY", "ANGRY", "SAD", "CONFUSED", "SURPRISED", "SCARED", "WORRIED", "HUNGRY", "THIRSTY", "SICK", "NERVOUS", "GRATEFUL"]
+      }
+    ],
+    "specialCategories": [
+      {
+        "category": "Soccer",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["GOALKEEPER", "DEFENDER", "FULLBACK", "HOLDINGMID", "MIDFIELDER", "FORWARD", "WINGER", "SWEEPER", "STRIKER", "CAPTAIN"] },
+          { "subcategory": "Plays", "words": ["PENALTY", "OFFSIDE", "CORNER", "DRIBBLE", "HATTRICK", "EXTRATIME", "FOUL", "VAR", "SUBSTITUTE", "HEADER", "VOLLEY", "FREEKICK", "TACKLE"] },
+          { "subcategory": "Teams", "words": ["FLAMENGO", "BARCELONA", "LIVERPOOL", "CHELSEA", "JUVENTUS", "SANTOS", "PALMEIRAS", "CORINTHIANS", "REALMADRID", "MILAN", "ARSENAL", "BAYERN"] },
+          { "subcategory": "Players", "words": ["NEYMAR", "PELE", "MESSI", "MBAPPE", "RONALDO", "ZIDANE", "MARADONA", "RONALDINHO", "KANE", "HAALAND", "INIESTA"] }
         ]
-    }
+      },
+      {
+        "category": "Basketball",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["POINTGUARD", "FORWARD", "CENTER", "SHOOTINGGUARD", "POWERFORWARD", "COACH"] },
+          { "subcategory": "Plays", "words": ["DUNK", "LAYUP", "THREEPOINTER", "REBOUND", "ASSIST", "FOUL", "FREETHROW", "BUZZER", "STEAL", "BLOCK", "CROSSOVER", "TRAVELING"] },
+          { "subcategory": "Teams", "words": ["LAKERS", "WARRIORS", "CELTICS", "BULLS", "HEAT", "NETS", "KNICKS", "SPURS", "BUCKS", "RAPTORS", "MAVERICKS"] },
+          { "subcategory": "Players", "words": ["JORDAN", "LEBRON", "CURRY", "KOBE", "SHAQ", "DURANT", "MAGIC", "WADE", "GANNIS", "DONCIC", "BIRD"] }
+        ]
+      },
+      {
+        "category": "Volleyball",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["SETTER", "LIBERO", "OUTSIDEHITTER", "MIDDLEBLOCKER", "OPPOSITE", "DEFENDER"] },
+          { "subcategory": "Plays", "words": ["SERVE", "SPIKE", "BLOCK", "SET", "DIG", "RALLY", "ACE", "ROTATION", "TIMEOUT", "UNDERHAND", "FLOATER"] }
+        ]
+      },
+      {
+        "category": "Formula 1",
+        "subcategories": [
+          { "subcategory": "Drivers", "words": ["VERSTAPPEN", "HAMILTON", "SENNA", "SCHUMACHER", "VETTEL", "ALONSO", "PIQUET", "PROST", "LECLERC", "NORRIS", "RUSSELL"] },
+          { "subcategory": "Teams", "words": ["FERRARI", "MCLAREN", "MERCEDES", "REDBULL", "WILLIAMS", "ALPINE", "HAAS", "ASTONMARTIN", "SAUBER", "TOROROSSO"] },
+          { "subcategory": "Terms", "words": ["PODIUM", "PITSTOP", "GRID", "OVERTAKE", "TYRE", "QUALIFYING", "SAFETYCAR", "DRS", "TELEMETRY", "PADDOCK", "CHICANE", "POLEPOSITION"] }
+        ]
+      },
+      {
+        "category": "Minecraft",
+        "subcategories": [
+          { "subcategory": "Blocks", "words": ["OBSIDIAN", "BEDROCK", "COBBLESTONE", "DIRT", "GRAVEL", "SANDSTONE", "PLANKS", "GLASS", "GLOWSTONE", "QUARTZ", "NETHERRACK", "LOG", "WOOL"] },
+          { "subcategory": "Items", "words": ["DIAMOND", "EMERALD", "PICKAXE", "SWORD", "BOW", "TORCH", "CHEST", "SHIELD", "COMPASS", "ELYTRA", "SADDLE", "FURNACE", "BUCKET", "GOLDENGLET", "ENDERPEARL"] },
+          { "subcategory": "Entities", "words": ["CREEPER", "ZOMBIE", "SKELETON", "VILLAGER", "ENDERMAN", "SPIDER", "GOLEM", "WITHER", "GHAST", "PIGLIN", "PHANTOM", "SHEEP", "BLAZE"] },
+          { "subcategory": "General", "words": ["REDSTONE", "PORTAL", "ENCHANTING", "NETHERITE", "SURVIVAL", "BIOME", "CRAFTING", "DUNGEON", "STRONGHOLD", "VILLAGE", "CREATIVE", "HARDCORE"] }
+        ]
+      },
+      {
+        "category": "Fortnite",
+        "subcategories": [
+          { "subcategory": "Items", "words": ["PICKAXE", "SHIELD", "GLIDER", "RAMP", "HEALING", "BACKPACK", "GRENADE", "MEDKIT", "VBUCKS", "SHOTGUN", "LAUNCHPAD"] },
+          { "subcategory": "Terms", "words": ["STORM", "LOOT", "VICTORY", "AMBUSH", "SQUAD", "RESPAWN", "BUILDING", "SNIPER", "CAMPING", "HEADSHOT", "KNOCKED"] },
+          { "subcategory": "General", "words": ["BATTLEROYALE", "SEASON", "SKIN", "EMOTE", "MAP", "SHOP", "CREATIVE", "CHEST", "LOBBY"] }
+        ]
+      },
+      {
+        "category": "Roblox",
+        "subcategories": [
+          { "subcategory": "Terms", "words": ["AVATAR", "ROBUX", "SERVER", "SCRIPT", "LOBBY", "BADGE", "GAMEPASS", "CATALOG", "BUILDER", "TYCOON", "TRADING"] },
+          { "subcategory": "Popular Games", "words": ["ADOPT", "BROOKHAVEN", "BLOXBURG", "OBBY", "SIMULATOR", "TOWER", "PIGGY", "ARSENAL", "MEEPCITY", "BEDWARS"] },
+          { "subcategory": "General", "words": ["DEVELOPER", "STUDIO", "EXPERIENCE", "PLATFORM", "MODERATOR", "COMMUNITY", "CREATOR", "ANIMATION"] }
+        ]
+      },
+      {
+        "category": "Free Fire",
+        "subcategories": [
+          { "subcategory": "Characters", "words": ["KAPELLA", "ALOK", "WUKONG", "HAYATO", "KELLY", "MOCO", "CHRONO", "NIKITA", "MIGUEL", "MAXIM", "PALOMA"] },
+          { "subcategory": "Weapons", "words": ["SHOTGUN", "GRENADE", "SNIPER", "PISTOL", "RIFLE", "KNIFE", "KATANA", "AWM", "GROZA", "MP40", "FAMAS"] },
+          { "subcategory": "Slangs and Terms", "words": ["BOOYAH", "HEADSHOT", "RUSH", "SQUAD", "ASTRAL", "CLUTCH", "LOOTBOX", "AIRDROP", "CRITICAL", "CAMPING", "RELOAD"] },
+          { "subcategory": "Maps", "words": ["BERMUDA", "PURGATORY", "KALAHARI", "NEXTERRA", "SOLARA", "ALPINE"] }
+        ]
+      },
+      {
+        "category": "Valorant",
+        "subcategories": [
+          { "subcategory": "Agents", "words": ["JETT", "SAGE", "SOVA", "REYNA", "KILLJOY", "BREACH", "OMEN", "PHOENIX", "CYPHER", "VIPER", "RAZE", "NEON", "CHAMBER"] },
+          { "subcategory": "Weapons", "words": ["VANDAL", "PHANTOM", "OPERATOR", "SHERIFF", "GHOST", "JUDGE", "SPECTRE", "ODIN", "MARSHAL", "CLASSIC"] },
+          { "subcategory": "Maps", "words": ["HAVEN", "ICEBOX", "ASCENT", "SPLIT", "BIND", "BREEZE", "LOTUS", "SUNSET", "FRACUTRE", "PEARL"] },
+          { "subcategory": "Terms", "words": ["SPIKE", "CLUTCH", "ULTIMATE", "DEFUSE", "SMOKE", "FLASH", "ECONOMY", "ECOROUND", "ACELIGHT", "PLANTING", "PISTOLROUND", "WALLBANG"] }
+        ]
+      }
     ]
-    },
-    {
+  },
+  {
     "language": "pt",
     "categories": [
-    {
+      {
         "category": "Frutas",
-        "words": [
-            "MAÇÃ",
-            "LARANJA",
-            "MORANGO",
-            "UVA",
-            "PERA",
-            "LIMÃO",
-            "ABACATE",
-            "KIWI",
-            "GOIABA",
-            "ABACAXI",
-            "MANGA",
-            "CEREJA",
-            "MELANCIA",
-            "MIRTILO" ,
-            "FRAMBOESA",
-            "PÊSSEGO",
-            "AMEIXA",
-            "COCO"
-        ]
-    },
-    {
+        "words": ["MAÇÃ", "LARANJA", "MORANGO", "UVA", "PERA", "LIMÃO", "ABACATE", "KIWI", "GOIABA", "ABACAXI", "MANGA", "CEREJA", "MELANCIA", "MIRTILO", "FRAMBOESA", "PÊSSEGO", "AMEIXA", "COCO"]
+      },
+      {
         "category": "Países",
-        "words": [
-            "ALEMANHA",
-            "BRASIL",
-            "FRANÇA",
-            "CANADÁ",
-            "JAPÃO",
-            "MÉXICO",
-            "ESPANHA",
-            "PORTUGAL",
-            "CHILE",
-            "ARGENTINA",
-            "ITÁLIA",
-            "CHINA",
-            "RÚSSIA",
-            "ÍNDIA",
-            "AUSTRÁLIA",
-            "INGLATERRA",
-            "SUÉCIA",
-            "NORUEGA",
-            "EGITO"
-        ]
-    },
-    {
+        "words": ["ALEMANHA", "BRASIL", "FRANÇA", "CANADÁ", "JAPÃO", "MÉXICO", "ESPANHA", "PORTUGAL", "CHILE", "ARGENTINA", "ITÁLIA", "CHINA", "RÚSSIA", "ÍNDIA", "AUSTRÁLIA", "INGLATERRA", "SUÉCIA", "NORUEGA", "EGITO"]
+      },
+      {
         "category": "Comidas",
-        "words": [
-            "PIZZA",
-            "HAMBÚRGUER",
-            "MASSA",
-            "SUSHI",
-            "SANDUÍCHE",
-            "OMELETE",
-            "SALADA",
-            "SOPA",
-            "BIFE",
-            "PANQUECA",
-            "TACO",
-            "LASANHA",
-            "PÃO",
-            "ARROZ",
-            "MACARRÃO",
-            "CHOCOLATE",
-            "BATATA FRITA",
-            "BISCOITO",
-            "QUEIJO"
-        ]
-    },
-    {
+        "words": ["PIZZA", "HAMBÚRGUER", "MASSA", "SUSHI", "SANDUÍCHE", "OMELETE", "SALADA", "SOPA", "BIFE", "PANQUECA", "TACO", "LASANHA", "PÃO", "ARROZ", "MACARRÃO", "CHOCOLATE", "BATATAFRITA", "BISCOITO", "QUEIJO"]
+      },
+      {
         "category": "Objetos de Cozinha",
-        "words": [
-            "COLHER",
-            "GARFO",
-            "FACA",
-            "PRATO",
-            "COPO",
-            "PANELA",
-            "TIJELA",
-            "XÍCARA",
-            "FOGÃO",
-            "MICROONDAS",
-            "LIQUIDIFICADOR",
-            "GELADEIRA",
-            "TORRADEIRA",
-            "FORNO",
-            "CHALEIRA",
-            "RALADOR",
-            "CONCHA",
-            "BANDEJA"
-        ]
-    },
-    {
+        "words": ["COLHER", "GARFO", "FACA", "PRATO", "COPO", "PANELA", "TIJELA", "XÍCARA", "FOGÃO", "MICROONDAS", "LIQUIDIFICADOR", "GELADEIRA", "TORRADEIRA", "FORNO", "CHALEIRA", "RALADOR", "CONCHA", "BANDEJA"]
+      },
+      {
         "category": "Animais",
-        "words": [
-            "CACHORRO",
-            "GATO",
-            "ELEFANTE",
-            "TIGRE",
-            "LEÃO",
-            "URSO",
-            "CAVALO",
-            "VACA",
-            "OVELHA",
-            "CABRA",
-            "MACACO",
-            "CANGURU",
-            "ZEBRA",
-            "RAPOSA",
-            "LOBO",
-            "GIRAFA",
-            "COELHO",
-            "GOLFINHO",
-            "ÁGUIA",
-            "CROCODILO"
-        ]
-    },
-    {
+        "words": ["CACHORRO", "GATO", "ELEFANTE", "TIGRE", "LEÃO", "URSO", "CAVALO", "VACA", "OVELHA", "CABRA", "MACACO", "CANGURU", "ZEBRA", "RAPOSA", "LOBO", "GIRAFA", "COELHO", "GOLFINHO", "ÁGUIA", "CROCODILO"]
+      },
+      {
         "category": "Veículos",
-        "words": [
-            "CARRO",
-            "CAMINHÃO",
-            "ÔNIBUS",
-            "BICICLETA",
-            "MOTO",
-            "TREM",
-            "AVIÃO",
-            "HELICÓPTERO",
-            "BARCO",
-            "SUBMARINO",
-            "TRATOR",
-            "SCOOTER",
-            "AMBULÂNCIA",
-            "TÁXI",
-            "JATO",
-            "VAN",
-            "BALSA",
-            "CRUZEIRO",
-            "BARCO"
-        ]
-    },
-    {
+        "words": ["CARRO", "CAMINHÃO", "ÔNIBUS", "BICICLETA", "MOTO", "TREM", "AVIÃO", "HELICÓPTERO", "BARCO", "SUBMARINO", "TRATOR", "SCOOTER", "AMBULÂNCIA", "TÁXI", "JATO", "VAN", "BALSA", "CRUZEIRO"]
+      },
+      {
         "category": "Cores",
-        "words": [
-            "VERMELHO",
-            "AZUL",
-            "VERDE",
-            "AMARELO",
-            "LARANJA",
-            "ROXO",
-            "ROSA",
-            "PRETO",
-            "BRANCO",
-            "MARROM",
-            "CINZA",
-            "CIANO",
-            "MAGENTA",
-            "BEGE",
-            "OURO",
-            "PRATA",
-            "VIOLETA",
-            "ANIL",
-            "BORDÔ"
-        ]
-    },
-    {
+        "words": ["VERMELHO", "AZUL", "VERDE", "AMARELO", "LARANJA", "ROXO", "ROSA", "PRETO", "BRANCO", "MARROM", "CINZA", "CIANO", "MAGENTA", "BEGE", "OURO", "PRATA", "VIOLETA", "ANIL", "BORDÔ"]
+      },
+      {
         "category": "Marcas",
-        "words": [
-            "NIKE",
-            "ADIDAS",
-            "APPLE",
-            "SAMSUNG",
-            "MICROSOFT",
-            "TESLA",
-            "HONDA",
-            "SONY",
-            "AMAZON",
-            "GOOGLE",
-            "PEPSI",
-            "FERRARI",
-            "MERCEDES",
-            "SUBWAY"
-        ]
-    },
-    {
+        "words": ["NIKE", "ADIDAS", "APPLE", "SAMSUNG", "MICROSOFT", "TESLA", "HONDA", "SONY", "AMAZON", "GOOGLE", "PEPSI", "FERRARI", "MERCEDES", "SUBWAY"]
+      },
+      {
         "category": "Bebidas",
-        "words": [
-            "ÁGUA",
-            "CAFÉ",
-            "CHÁ",
-            "SUCO",
-            "LEITE",
-            "REFRIGERANTE",
-            "VINHO",
-            "CERVEJA",
-            "UÍSQUE",
-            "VODCA",
-            "VITAMINA",
-            "MILKSHAKE",
-            "ENERGÉTICO",
-            "LIMONADA",
-            "MOJITO",
-            "CHAMPANHE",
-            "EXPRESSO",
-            "COLA"
-        ]
-    },
-    {
+        "words": ["ÁGUA", "CAFÉ", "CHÁ", "SUCO", "LEITE", "REFRIGERANTE", "VINHO", "CERVEJA", "UÍSQUE", "VODCA", "VITAMINA", "MILKSHAKE", "ENERGÉTICO", "LIMONADA", "MOJITO", "CHAMPANHE", "EXPRESSO", "COLA"]
+      },
+      {
         "category": "Instrumentos Musicais",
-        "words": [
-            "VIOLÃO",
-            "PIANO",
-            "BATERIA",
-            "VIOLINO",
-            "FLAUTA",
-            "TROMPETE",
-            "SAXOFONE",
-            "HARPA",
-            "BAIXO",
-            "CLARINETE",
-            "UKULELE",
-            "TROMBONE",
-            "GAITA",
-            "BANJO",
-            "XILOFONE",
-            "BONGO",
-            "ÓRGÃO"
-        ]
-    },
-    {
+        "words": ["VIOLÃO", "PIANO", "BATERIA", "VIOLINO", "FLAUTA", "TROMPETE", "SAXOFONE", "HARPA", "BAIXO", "CLARINETE", "UKULELE", "TROMBONE", "GAITA", "BANJO", "XILOFONE", "BONGO", "ÓRGÃO"]
+      },
+      {
         "category": "Esportes",
-        "words": [
-            "FUTEBOL",
-            "BASQUETE",
-            "TÊNIS",
-            "BASEBALL",
-            "VÔLEI",
-            "HOQUEI",
-            "GOLFE",
-            "CORRIDA",
-            "CICLISMO",
-            "BOXE",
-            "CORDA",
-            "MUSCULAÇÃO",
-            "YOGA",
-            "CROSSFIT",
-            "LUTA",
-            "XADREZ"
-        ]
-    },
-    {
+        "words": ["FUTEBOL", "BASQUETE", "TÊNIS", "BASEBALL", "VÔLEI", "HOQUEI", "GOLFE", "CORRIDA", "CICLISMO", "BOXE", "CORDA", "MUSCULAÇÃO", "YOGA", "CROSSFIT", "LUTA", "XADREZ"]
+      },
+      {
         "category": "Eletrodomésticos",
-        "words": [
-            "GELADEIRA",
-            "FOGÃO",
-            "MICROONDAS",
-            "LIQUIDIFICADOR",
-            "FREEZER",
-            "FORNO",
-            "TORRADEIRA",
-            "VENTILADOR",
-            "BATEDEIRA",
-            "SECADORA",
-            "CHURRASQUEIRA"
-        ]
-    },
-    {
+        "words": ["GELADEIRA", "FOGÃO", "MICROONDAS", "LIQUIDIFICADOR", "FREEZER", "FORNO", "TORRADEIRA", "VENTILADOR", "BATEDEIRA", "SECADORA", "CHURRASQUEIRA"]
+      },
+      {
         "category": "Verbos",
-        "words": [
-            "COMER",
-            "BEBER",
-            "DORMIR",
-            "TRABALHAR",
-            "JOGAR",
-            "LER",
-            "ASSISTIR",
-            "OUVIR",
-            "CANTAR",
-            "DANÇAR",
-            "CORRER",
-            "PULAR",
-            "PRECISAR",
-            "COMPRAR",
-            "TER",
-            "PEGAR",
-            "PERDER",
-            "VENCER",
-            "QUERER",
-            "SENTIR",
-            "TOMAR",
-            "ENCONTRAR",
-            "FAZER",
-            "AJUDAR",
-            "OLHAR",
-            "CONTAR",
-            "FALAR",
-            "LUTAR"
-        ]
-    },
-    {
+        "words": ["COMER", "BEBER", "DORMIR", "TRABALHAR", "JOGAR", "LER", "ASSISTIR", "OUVIR", "CANTAR", "DANÇAR", "CORRER", "PULAR", "PRECISAR", "COMPRAR", "TER", "PEGAR", "PERDER", "VENCER", "QUERER", "SENTIR", "TOMAR", "ENCONTRAR", "FAZER", "AJUDAR", "OLHAR", "CONTAR", "FALAR", "LUTAR"]
+      },
+      {
         "category": "Sentimentos",
-        "words": [
-            "MEDO",
-            "AMOR",
-            "FELICIDADE",
-            "RAIVA",
-            "TRISTEZA",
-            "CONFUSÃO",
-            "SURPRESA",
-            "PREOCUPAÇÃO",
-            "FOME",
-            "SEDE",
-            "DOENTE",
-            "NERVOSISMO",
-            "GRATIDÃO"
+        "words": ["MEDO", "AMOR", "FELICIDADE", "RAIVA", "TRISTEZA", "CONFUSÃO", "SURPRESA", "PREOCUPAÇÃO", "FOME", "SEDE", "DOENTE", "NERVOSISMO", "GRATIDÃO"]
+      }
+    ],
+    "specialCategories": [
+      {
+        "category": "Futebol",
+        "subcategories": [
+          { "subcategory": "Posições", "words": ["GOLEIRO", "ZAGUEIRO", "LATERAL", "VOLANTE", "MEIA", "ATACANTE", "PONTA", "LÍBERO", "CENTROAVANTE", "CAPITÃO"] },
+          { "subcategory": "Jogadas", "words": ["PÊNALTI", "IMPEDIMENTO", "ESCANTEIO", "DRIBLE", "HATTRICK", "PRORROGAÇÃO", "FALTA", "VAR", "SUBSTITUIÇÃO", "CABECEIO", "VOLEIO", "BICICLETA", "CARRINHO", "CHUTE"] },
+          { "subcategory": "Times", "words": ["FLAMENGO", "BARCELONA", "LIVERPOOL", "CHELSEA", "JUVENTUS", "SANTOS", "PALMEIRAS", "CORINTHIANS", "REALMADRID", "MILAN", "CRUZEIRO", "GREMIO", "SAOPAULO"] },
+          { "subcategory": "Jogadores", "words": ["NEYMAR", "PELÉ", "MESSI", "MBAPPÉ", "RONALDO", "ZIDANE", "MARADONA", "RONALDINHO", "CRISTIANO", "KAKA", "RIVALDO"] }
         ]
-    }
-]
-    },
-    {
-  "language": "es",
-  "categories": [
-    {
-      "category": "Frutas",
-      "words": [
-        "MANZANA",
-        "NARANJA",
-        "FRESA",
-        "UVA",
-        "PERA",
-        "LIMÓN",
-        "AGUACATE",
-        "KIWI",
-        "GUAYABA",
-        "PIÑA",
-        "MANGO",
-        "CEREZA",
-        "SANDÍA",
-        "ARÁNDANO",
-        "FRAMBUESA",
-        "DURAZNO",
-        "CIRUELA",
-        "COCO"
-      ]
-    },
-    {
-      "category": "Países",
-      "words": [
-        "ALEMANIA",
-        "BRASIL",
-        "FRANCIA",
-        "CANADÁ",
-        "JAPÓN",
-        "MÉXICO",
-        "ESPAÑA",
-        "PORTUGAL",
-        "CHILE",
-        "ARGENTINA",
-        "ITALIA",
-        "CHINA",
-        "RUSIA",
-        "INDIA",
-        "AUSTRALIA",
-        "INGLATERRA",
-        "SUECIA",
-        "NORUEGA",
-        "EGIPTO"
-      ]
-    },
-    {
-      "category": "Comida",
-      "words": [
-        "PIZZA",
-        "HAMBURGUESA",
-        "PASTA",
-        "SUSHI",
-        "SÁNDWICH",
-        "TORTILLA",
-        "ENSALADA",
-        "SOPA",
-        "CARNE",
-        "PANQUEQUE",
-        "TACO",
-        "LASAÑA",
-        "PAN",
-        "ARROZ",
-        "FIDEOS",
-        "CHOCOLATE",
-        "PAPAS FRITAS",
-        "GALLETA",
-        "QUESO"
-      ]
-    },
-    {
-      "category": "Objetos de cocina",
-      "words": [
-        "CUCHARA",
-        "TENEDOR",
-        "CUCHILLO",
-        "PLATO",
-        "VASO",
-        "SARTÉN",
-        "OLLA",
-        "TAZÓN",
-        "TAZA",
-        "ESTUFA",
-        "MICROONDAS",
-        "LICUADORA",
-        "REFRIGERADOR",
-        "TOSTADORA",
-        "HORNO",
-        "HERVIDOR",
-        "RALLADOR",
-        "CUCHARÓN",
-        "BANDEJA"
-      ]
-    },
-    {
-      "category": "Animales",
-      "words": [
-        "PERRO",
-        "GATO",
-        "ELEFANTE",
-        "TIGRE",
-        "LEÓN",
-        "OSO",
-        "CABALLO",
-        "VACA",
-        "OVEJA",
-        "CABRA",
-        "MONO",
-        "CANGURO",
-        "CEBRA",
-        "ZORRO",
-        "LOBO",
-        "JIRAFA",
-        "CONEJO",
-        "DELFIN",
-        "ÁGUILA",
-        "COCODRILO"
-      ]
-    },
-    {
-      "category": "Vehículos",
-      "words": [
-        "AUTO",
-        "CAMIÓN",
-        "AUTOBÚS",
-        "BICICLETA",
-        "MOTOCICLETA",
-        "TREN",
-        "AVIÓN",
-        "HELICÓPTERO",
-        "BARCO",
-        "SUBMARINO",
-        "TRACTOR",
-        "SCOOTER",
-        "AMBULANCIA",
-        "TAXI",
-        "JET",
-        "FURGONETA",
-        "FERRY",
-        "CRUCERO"
-      ]
-    },
-    {
-      "category": "Colores",
-      "words": [
-        "ROJO",
-        "AZUL",
-        "VERDE",
-        "AMARILLO",
-        "NARANJA",
-        "MORADO",
-        "ROSA",
-        "NEGRO",
-        "BLANCO",
-        "MARRÓN",
-        "GRIS",
-        "CIAN",
-        "MAGENTA",
-        "BEIGE",
-        "ORO",
-        "PLATA",
-        "VIOLETA",
-        "ÍNDIGO",
-        "GRANATE"
-      ]
-    },
-    {
-      "category": "Marcas",
-      "words": [
-        "NIKE",
-        "ADIDAS",
-        "APPLE",
-        "SAMSUNG",
-        "MICROSOFT",
-        "TESLA",
-        "HONDA",
-        "SONY",
-        "AMAZON",
-        "GOOGLE",
-        "PEPSI",
-        "FERRARI",
-        "MERCEDES",
-        "SUBWAY"
-      ]
-    },
-    {
-      "category": "Bebidas",
-      "words": [
-        "AGUA",
-        "CAFÉ",
-        "TÉ",
-        "JUGO",
-        "LECHE",
-        "REFRESCO",
-        "VINO",
-        "CERVEZA",
-        "WHISKY",
-        "VODKA",
-        "BATIDO",
-        "MILKSHAKE",
-        "ENERGÉTICO",
-        "LIMONADA",
-        "MOJITO",
-        "CHAMPÁN",
-        "LATTE",
-        "ESPRESSO",
-        "COLA"
-      ]
-    }
-  ]
-  },
-   {
-  "language": "fr",
-  "categories": [
-  {
-    "category": "Fruits",
-    "words": [
-      "POMME",
-      "ORANGE",
-      "FRAISE",
-      "RAISIN",
-      "POIRE",
-      "CITRON",
-      "AVOCAT",
-      "KIWI",
-      "GOYAVE",
-      "ANANAS",
-      "MANGUE",
-      "CERISE",
-      "PASTÈQUE",
-      "MYRTILLE",
-      "FRAMBOISE",
-      "PÊCHE",
-      "PRUNE",
-      "NOIX DE COCO"
+      },
+      {
+        "category": "Basquete",
+        "subcategories": [
+          { "subcategory": "Posições", "words": ["ARMADOR", "ALA", "PIVÔ", "ALAARMADOR", "ALAPIVÔ", "TÉCNICO"] },
+          { "subcategory": "Jogadas", "words": ["ENTERRADA", "BANDEJA", "TRIPLO", "REBOTE", "ASSISTÊNCIA", "FALTA", "LANCELIVRE", "BUZZER", "TOCO", "ROUBO", "DRIBLE", "ANDADA"] },
+          { "subcategory": "Times", "words": ["LAKERS", "WARRIORS", "CELTICS", "BULLS", "HEAT", "NETS", "KNICKS", "SPURS", "BUCKS", "SUNS", "ROCKETS"] },
+          { "subcategory": "Jogadores", "words": ["JORDAN", "LEBRON", "CURRY", "KOBE", "SHAQ", "DURANT", "MAGIC", "WADE", "ANTETOKOUNMPO", "YID", "HARDEN"] }
+        ]
+      },
+      {
+        "category": "Vôlei",
+        "subcategories": [
+          { "subcategory": "Posições", "words": ["LEVANTADOR", "LÍBERO", "PONTEIRO", "CENTRAL", "OPOSTO", "BLOQUEADOR"] },
+          { "subcategory": "Jogadas", "words": ["SAQUE", "ATAQUE", "BLOQUEIO", "LEVANTAMENTO", "DEFESA", "RALI", "ACE", "RODÍZIO", "MANCHETE", "TOQUE", "TEMPO"] }
+        ]
+      },
+      {
+        "category": "Fórmula 1",
+        "subcategories": [
+          { "subcategory": "Pilotos", "words": ["VERSTAPPEN", "HAMILTON", "SENNA", "SCHUMACHER", "VETTEL", "ALONSO", "PIQUET", "PROST", "LECLERC", "NORRIS", "MASSA", "RUBINHO"] },
+          { "subcategory": "Equipes", "words": ["FERRARI", "MCLAREN", "MERCEDES", "REDBULL", "WILLIAMS", "ALPINE", "HAAS", "ASTONMARTIN", "SAUBER", "ALPHATAURI"] },
+          { "subcategory": "Termos", "words": ["PÓDIO", "BOXES", "GRID", "ULTRAPASSAGEM", "PNEU", "CLASSIFICAÇÃO", "SAFETYCAR", "DRS", "TELEMETRIA", "PADDOCK", "ZEBRA", "POLEPOSITION"] }
+        ]
+      },
+      {
+        "category": "Minecraft",
+        "subcategories": [
+          { "subcategory": "Blocos", "words": ["OBSIDIANA", "PEDREGULHO", "TERRA", "CASCALHO", "ARENITO", "TÁBUAS", "VIDRO", "PEDRALUMINOSA", "QUARTZO", "TIJOLO", "MADEIRA", "LÃ"] },
+          { "subcategory": "Itens", "words": ["DIAMANTE", "ESMERALDA", "PICARETA", "ESPADA", "ARCO", "TOCHA", "BAÚ", "ESCUDO", "BÚSSOLA", "RELOGIO", "FORNALHA", "BALDE", "CANA", "POÇÃO", "MAÇÃDOURADA"] },
+          { "subcategory": "Entidades", "words": ["CREEPER", "ZUMBI", "ESQUELETO", "ALDEÃO", "ENDERMAN", "ARANHA", "GOLEM", "WITHER", "GHAST", "PORCO", "PHANTOM", "OVELHA", "BLAZE"] },
+          { "subcategory": "Gerais", "words": ["REDSTONE", "PORTAL", "ENCANTAMENTO", "NETHERITE", "SOBREVIVÊNCIA", "BIOMA", "CRAFTING", "MINERAÇÃO", "CAVERNA", "FORTALEZA", "VILA", "CRIATIVO"] }
+        ]
+      },
+      {
+        "category": "Fortnite",
+        "subcategories": [
+          { "subcategory": "Itens", "words": ["PICARETA", "ESCUDO", "PARAPENTE", "RAMPA", "CURA", "MOCHILA", "GRANADA", "VBUCKS", "METRALHADORA", "Rifle", "CHURRASCO"] },
+          { "subcategory": "Termos", "words": ["TEMPESTADE", "SAQUE", "VITÓRIA", "EMBOSCADA", "ESQUADRÃO", "REVIVER", "CONSTRUÇÃO", "SNIPER", "TIRO", "ABRIGAR", "QUEDA"] },
+          { "subcategory": "Gerais", "words": ["BATTLEROYALE", "TEMPORADA", "SKIN", "EMOTE", "MAPA", "LOJA", "CRIATIVO", "BAU", "LOBBY"] }
+        ]
+      },
+      {
+        "category": "Roblox",
+        "subcategories": [
+          { "subcategory": "Termos", "words": ["AVATAR", "ROBUX", "SERVIDOR", "SCRIPT", "LOBBY", "EMBLEMA", "GAMEPASS", "CATALOGO", "CONSTRUTOR", "CONTA"] },
+          { "subcategory": "Jogos Populares", "words": ["ADOPT", "BROOKHAVEN", "BLOXBURG", "OBBY", "SIMULADOR", "TOWER", "PIGGY", "ARSENAL", "JAILBREAK"] },
+          { "subcategory": "Gerais", "words": ["DESENVOLVEDOR", "ESTÚDIO", "EXPERIÊNCIA", "PLATAFORMA", "MODERADOR", "COMUNIDADE", "CRIADOR", "MUNDO"] }
+        ]
+      },
+      {
+        "category": "Free Fire",
+        "subcategories": [
+          { "subcategory": "Personagens", "words": ["KAPELLA", "ALOK", "WUKONG", "HAYATO", "KELLY", "MOCO", "CHRONO", "NIKITA", "MIGUEL", "MAXIM", "MISHA"] },
+          { "subcategory": "Armas", "words": ["ESCOPETA", "GRANADA", "SNIPER", "PISTOLA", "RIFLE", "FACA", "KATANA", "METRALHADORA", "DOZE", "PANELA"] },
+          { "subcategory": "Gírias e Termos", "words": ["BOOYAH", "KAPA", "RUSHADO", "MANDOUFARPA", "CRÍTICO", "SQUAD", "ZÉCARRINHO", "GUILDA", "CAPA", "MOCADO", "LOTEADO", "AIRDROP"] },
+          { "subcategory": "Mapas", "words": ["BERMUDA", "PURGATÓRIO", "KALAHARI", "NEXTERRA", "SOLARA", "ALPES"] }
+        ]
+      },
+      {
+        "category": "Valorant",
+        "subcategories": [
+          { "subcategory": "Agentes", "words": ["JETT", "SAGE", "SOVA", "REYNA", "KILLJOY", "BREACH", "OMEN", "PHOENIX", "CYPHER", "VIPER", "RAZE", "NEON", "FADE"] },
+          { "subcategory": "Armas", "words": ["VANDAL", "PHANTOM", "OPERATOR", "SHERIFF", "GHOST", "JUDGE", "SPECTRE", "ODIN", "MARSHAL", "FAUCON"] },
+          { "subcategory": "Mapas", "words": ["HAVEN", "ICEBOX", "ASCENT", "SPLIT", "BIND", "BREEZE", "LOTUS", "SUNSET", "PEARL", "FRACTURE"] },
+          { "subcategory": "Termos", "words": ["SPIKE", "CLUTCH", "ULTIMATE", "DEFUSAR", "FUMAÇA", "FLASH", "ECONOMIA", "FORÇADO", "ROUNDECO", "BANG", "PISTOL", "VARADO"] }
+        ]
+      }
     ]
   },
   {
-    "category": "Pays",
-    "words": [
-      "ALLEMAGNE",
-      "BRÉSIL",
-      "FRANCE",
-      "CANADA",
-      "JAPON",
-      "MEXIQUE",
-      "ESPAGNE",
-      "PORTUGAL",
-      "CHILI",
-      "ARGENTINE",
-      "ITALIE",
-      "CHINE",
-      "RUSSIE",
-      "INDE",
-      "AUSTRALIE",
-      "ANGLETERRE",
-      "SUÈDE",
-      "NORVÈGE",
-      "ÉGYPTE"
+    "language": "es",
+    "categories": [
+      {
+        "category": "Frutas",
+        "words": ["MANZANA", "NARANJA", "FRESA", "UVA", "PERA", "LIMÓN", "AGUACATE", "KIWI", "GUAYABA", "PIÑA", "MANGO", "CEREZA", "SANDÍA", "ARÁNDANO", "FRAMBUESA", "DURAZNO", "CIRUELA", "COCO"]
+      },
+      {
+        "category": "Países",
+        "words": ["ALEMANIA", "BRASIL", "FRANCIA", "CANADÁ", "JAPÓN", "MÉXICO", "ESPAÑA", "PORTUGAL", "CHILE", "ARGENTINA", "ITALIA", "CHINA", "RUSIA", "INDIA", "AUSTRALIA", "INGLATERRA", "SUECIA", "NORUEGA", "EGIPTO"]
+      },
+      {
+        "category": "Comida",
+        "words": ["PIZZA", "HAMBURGUESA", "PASTA", "SUSHI", "SÁNDWICH", "TORTILLA", "ENSALADA", "SOPA", "CARNE", "PANQUEQUE", "TACO", "LASAÑA", "PAN", "ARROZ", "FIDEOS", "CHOCOLATE", "PAPASFRITAS", "GALLETA", "QUESO"]
+      },
+      {
+        "category": "Objetos de cocina",
+        "words": ["CUCHARA", "TENEDOR", "CUCHILLO", "PLATO", "VASO", "SARTÉN", "OLLA", "TAZÓN", "TAZA", "ESTUFA", "MICROONDAS", "LICUADORA", "REFRIGERADOR", "TOSTADORA", "HORNO", "HERVIDOR", "RALLADOR", "CUCHARÓN", "BANDEJA"]
+      },
+      {
+        "category": "Animales",
+        "words": ["PERRO", "GATO", "ELEFANTE", "TIGRE", "LEÓN", "OSO", "CABALLO", "VACA", "OVEJA", "CABRA", "MONO", "CANGURO", "CEBRA", "ZORRO", "LOBO", "JIRAFA", "CONEJO", "DELFIN", "ÁGUILA", "COCODRILO"]
+      },
+      {
+        "category": "Vehículos",
+        "words": ["AUTO", "CAMIÓN", "AUTOBÚS", "BICICLETA", "MOTOCICLETA", "TREN", "AVIÓN", "HELICÓPTERO", "BARCO", "SUBMARINO", "TRACTOR", "SCOOTER", "AMBULANCIA", "TAXI", "JET", "FURGONETA", "FERRY", "CRUCERO"]
+      },
+      {
+        "category": "Colores",
+        "words": ["ROJO", "AZUL", "VERDE", "AMARILLO", "NARANJA", "MORADO", "ROSA", "NEGRO", "BLANCO", "MARRÓN", "GRIS", "CIAN", "MAGENTA", "BEIGE", "ORO", "PLATA", "VIOLETA", "ÍNDIGO", "GRANATE"]
+      },
+      {
+        "category": "Marcas",
+        "words": ["NIKE", "ADIDAS", "APPLE", "SAMSUNG", "MICROSOFT", "TESLA", "HONDA", "SONY", "AMAZON", "GOOGLE", "PEPSI", "FERRARI", "MERCEDES", "SUBWAY"]
+      },
+      {
+        "category": "Bebidas",
+        "words": ["AGUA", "CAFÉ", "TÉ", "JUGO", "LECHE", "REFRESCO", "VINO", "CERVEZA", "WHISKY", "VODKA", "BATIDO", "MILKSHAKE", "ENERGÉTICO", "LIMONADA", "MOJITO", "CHAMPÁN", "LATTE", "ESPRESSO", "COLA"]
+      }
+    ],
+    "specialCategories": [
+      {
+        "category": "Fútbol",
+        "subcategories": [
+          { "subcategory": "Posiciones", "words": ["PORTERO", "DEFENSA", "LATERAL", "VOLANTE", "MEDIOCAMPISTA", "DELANTERO", "EXTREMO", "LIBERO", "CAPITAN", "ATACANTE"] },
+          { "subcategory": "Jugadas", "words": ["PENALTI", "FUERADEJUEGO", "CORNER", "REGATE", "HATTRICK", "PRORROGA", "FALTA", "VAR", "SUSTITUCION", "CABEZAZO", "VOLEA", "CHILENA", "PASE", "TIROLIBRE"] },
+          { "subcategory": "Equipos", "words": ["FLAMENGO", "BARCELONA", "LIVERPOOL", "CHELSEA", "JUVENTUS", "SANTOS", "PALMEIRAS", "CORINTHIANS", "REALMADRID", "MILAN", "ATLETICO", "SEVILLA"] },
+          { "subcategory": "Jugadores", "words": ["NEYMAR", "PELE", "MESSI", "MBAPPE", "RONALDO", "ZIDANE", "MARADONA", "RONALDINHO", "INIESTA", "BENZEMA", "CRISTIANO"] }
+        ]
+      },
+      {
+        "category": "Baloncesto",
+        "subcategories": [
+          { "subcategory": "Posiciones", "words": ["BASE", "ALERO", "PIVOT", "ESCOLTA", "ALAPIVOT", "ENTRENADOR"] },
+          { "subcategory": "Jugadas", "words": ["MATE", "BANDEJA", "TRIPLE", "REBOTE", "ASISTENCIA", "FALTA", "TIROLIBRE", "BUZZER", "TAPON", "ROBO", "DRIBLE", "PASOS"] },
+          { "subcategory": "Equipos", "words": ["LAKERS", "WARRIORS", "CELTICS", "BULLS", "HEAT", "NETS", "KNICKS", "SPURS", "BUCKS", "MAVERICKS", "RAPTORS"] },
+          { "subcategory": "Jugadores", "words": ["JORDAN", "LEBRON", "CURRY", "KOBE", "SHAQ", "DURANT", "MAGIC", "WADE", "DONCIC", "GANNIS"] }
+        ]
+      },
+      {
+        "category": "Voleibol",
+        "subcategories": [
+          { "subcategory": "Posiciones", "words": ["COLOCADOR", "LIBERO", "PUNTA", "CENTRAL", "OPUESTO", "ZAGUERO"] },
+          { "subcategory": "Jugadas", "words": ["SAQUE", "REMATE", "BLOQUEO", "COLOCACION", "DEFENSA", "RALLY", "ACE", "ROTACION", "TOQUE", "RECEPCION"] }
+        ]
+      },
+      {
+        "category": "Fórmula 1",
+        "subcategories": [
+          { "subcategory": "Pilotos", "words": ["VERSTAPPEN", "HAMILTON", "SENNA", "SCHUMACHER", "VETTEL", "ALONSO", "PIQUET", "PROST", "LECLERC", "NORRIS", "SAINZ", "PEREZ"] },
+          { "subcategory": "Equipes", "words": ["FERRARI", "MCLAREN", "MERCEDES", "REDBULL", "WILLIAMS", "ALPINE", "HAAS", "ASTONMARTIN", "SAUBER", "TOROROSSO"] },
+          { "subcategory": "Términos", "words": ["PODIO", "BOXES", "PARRILLA", "ADELANTAMIENTO", "NEUMATICO", "CLASIFICACION", "SAFETYCAR", "DRS", "PISTA", "TELEMETRIA", "CURVA", "POLEPOSITION"] }
+        ]
+      },
+      {
+        "category": "Minecraft",
+        "subcategories": [
+          { "subcategory": "Bloques", "words": ["OBSIDIANA", "PIEDRABASE", "ADOQUIN", "TIERRA", "GRAVA", "ARENISCA", "TABLONES", "VIDRIO", "PIEDRALUMINOSA", "CUARZO", "LADRILLO", "LANA"] },
+          { "subcategory": "Items", "words": ["DIAMANTE", "ESMERALDA", "PICO", "ESPADA", "ARCO", "ANTORCHA", "COFRE", "ESCUDO", "BRUJULA", "HORNO", "BALDE", "MANZANA", "RELOJ", "MANZANADORADA"] },
+          { "subcategory": "Entidades", "words": ["CREEPER", "ZOMBIE", "ESQUELETO", "ALDEANO", "ENDERMAN", "ARAÑA", "GOLEM", "WITHER", "PIGLIN", "OVEJA", "CERDO", "BLAZE"] },
+          { "subcategory": "Generales", "words": ["REDSTONE", "PORTAL", "ENCANTAMIENTO", "NETHERITE", "SUPERVIVENCIA", "BIOMA", "CRAFTING", "MINERIA", "ALDEA", "CUEVA", "CREATIVO"] }
+        ]
+      },
+      {
+        "category": "Fortnite",
+        "subcategories": [
+          { "subcategory": "Items", "words": ["PIQUETA", "ESCUDO", "PARAPENTE", "RAMPA", "CURACION", "MOCHILA", "GRANADA", "PAVOS", "FUSIL", "BOTIQUIN", "ESCABRO"] },
+          { "subcategory": "Términos", "words": ["TORMENTA", "BOTIN", "VICTORIA", "EMBOSCADA", "ESCUADRA", "REAPARICION", "CONSTRUCCION", "SNIPER", "TIRO", "COBERTURA"] },
+          { "subcategory": "Generales", "words": ["BATTLEROYALE", "TEMPORADA", "SKIN", "EMOTE", "MAPA", "TIENDA", "CREATIVO", "LOBBY", "COFRE"] }
+        ]
+      },
+      {
+        "category": "Roblox",
+        "subcategories": [
+          { "subcategory": "Términos", "words": ["AVATAR", "ROBUX", "SERVIDOR", "SCRIPT", "LOBBY", "INSIGNIA", "GAMEPASS", "CATALOGO", "CONSTRUCTOR", "GRUPO"] },
+          { "subcategory": "Juegos Populares", "words": ["ADOPT", "BROOKHAVEN", "BLOXBURG", "OBBY", "SIMULADOR", "TOWER", "PIGGY", "ARSENAL", "JAILBREAK"] },
+          { "subcategory": "Generales", "words": ["DESARROLLADOR", "ESTUDIO", "EXPERIENCIA", "PLATAFORMA", "MODERADOR", "COMUNIDAD", "CREADOR", "MUNDO"] }
+        ]
+      },
+      {
+        "category": "Free Fire",
+        "subcategories": [
+          { "subcategory": "Personajes", "words": ["KAPELLA", "ALOK", "WUKONG", "HAYATO", "KELLY", "MOCO", "CHRONO", "NIKITA", "MAXIM", "MIGUEL", "MISHA"] },
+          { "subcategory": "Armas", "words": ["ESCOPETA", "GRANADA", "SNIPER", "PISTOLA", "RIFLE", "CUCHILLO", "KATANA", "AMETRALLADORA", "SARTEN"] },
+          { "subcategory": "Jerga y Términos", "words": ["BOOYAH", "CABECEO", "RUSHEAR", "ESCUADRA", "CRITICO", "CLUTCH", "CAMPERO", "RECARGAR", "BAJADO", "AIRDROP", "SALAROJA"] },
+          { "subcategory": "Mapas", "words": ["BERMUDA", "PURGATORIO", "KALAHARI", "NEXTERRA", "SOLARA", "ALPES"] }
+        ]
+      },
+      {
+        "category": "Valorant",
+        "subcategories": [
+          { "subcategory": "Agentes", "words": ["JETT", "SAGE", "SOVA", "REYNA", "KILLJOY", "BREACH", "OMEN", "PHOENIX", "CYPHER", "VIPER", "RAZE", "NEON", "CHAMBER"] },
+          { "subcategory": "Armas", "words": ["VANDAL", "PHANTOM", "OPERATOR", "SHERIFF", "GHOST", "JUDGE", "SPECTRE", "ODIN", "MARSHAL", "CLASSIC"] },
+          { "subcategory": "Mapas", "words": ["HAVEN", "ICEBOX", "ASCENT", "SPLIT", "BIND", "BREEZE", "LOTUS", "SUNSET", "PEARL", "FRACTURE"] },
+          { "subcategory": "Términos", "words": ["SPIKE", "CLUTCH", "ULTIMATE", "DEFUSAR", "HUMO", "FLASH", "ECONOMIA", "FORZADO", "RONDAECO", "BANG", "PISTOLROUND"] }
+        ]
+      }
     ]
   },
   {
-    "category": "Nourriture",
-    "words": [
-      "PIZZA",
-      "HAMBURGER",
-      "PÂTES",
-      "SUSHI",
-      "SANDWICH",
-      "OMELETTE",
-      "SALADE",
-      "SOUPE",
-      "STEAK",
-      "CRÊPE",
-      "TACO",
-      "LASAGNE",
-      "PAIN",
-      "RIZ",
-      "PÂTES",
-      "CHOCOLAT",
-      "FRITES",
-      "BISCUIT",
-      "FROMAGE"
-    ]
-  },
-  {
-    "category": "Objets de cuisine",
-    "words": [
-      "CUILLÈRE",
-      "FOURCHETTE",
-      "COUTEAU",
-      "ASSIETTE",
-      "VERRE",
-      "POÊLE",
-      "CASSEROLE",
-      "BOL",
-      "TASSE",
-      "CUISINIÈRE",
-      "MICRO-ONDES",
-      "MIXEUR",
-      "RÉFRIGÉRATEUR",
-      "GRILLE-PAIN",
-      "FOUR",
-      "BOUILLOIRE",
-      "RÂPE",
-      "LOUCHE",
-      "PLATEAU"
-    ]
-  },
-  {
-    "category": "Animaux",
-    "words": [
-      "CHIEN",
-      "CHAT",
-      "ÉLÉPHANT",
-      "TIGRE",
-      "LION",
-      "OURS",
-      "CHEVAL",
-      "VACHE",
-      "MOUTON",
-      "CHÈVRE",
-      "SINGE",
-      "KANGOUROU",
-      "ZÈBRE",
-      "RENARD",
-      "LOUP",
-      "GIRAFE",
-      "LAPIN",
-      "DAUPHIN",
-      "AIGLE",
-      "CROCODILE"
-    ]
-  },
-  {
-    "category": "Véhicules",
-    "words": [
-      "VOITURE",
-      "CAMION",
-      "BUS",
-      "VÉLO",
-      "MOTO",
-      "TRAIN",
-      "AVION",
-      "HÉLICOPTÈRE",
-      "BATEAU",
-      "SOUS-MARIN",
-      "TRACTEUR",
-      "SCOOTER",
-      "AMBULANCE",
-      "TAXI",
-      "JET",
-      "FOURGONNETTE",
-      "FERRY",
-      "CROISIÈRE"
-    ]
-  },
-  {
-    "category": "Couleurs",
-    "words": [
-      "ROUGE",
-      "BLEU",
-      "VERT",
-      "JAUNE",
-      "ORANGE",
-      "VIOLET",
-      "ROSE",
-      "NOIR",
-      "BLANC",
-      "MARRON",
-      "GRIS",
-      "CYAN",
-      "MAGENTA",
-      "BEIGE",
-      "OR",
-      "ARGENT",
-      "INDIGO",
-      "BORDEAUX"
-    ]
-  },
-  {
-    "category": "Marques",
-    "words": [
-      "NIKE",
-      "ADIDAS",
-      "APPLE",
-      "SAMSUNG",
-      "MICROSOFT",
-      "TESLA",
-      "HONDA",
-      "SONY",
-      "AMAZON",
-      "GOOGLE",
-      "PEPSI",
-      "FERRARI",
-      "MERCEDES",
-      "SUBWAY"
-    ]
-  },
-  {
-    "category": "Boissons",
-    "words": [
-      "EAU",
-      "CAFÉ",
-      "THÉ",
-      "JUS",
-      "LAIT",
-      "SODA",
-      "VIN",
-      "BIÈRE",
-      "WHISKY",
-      "VODKA",
-      "SMOOTHIE",
-      "MILKSHAKE",
-      "ÉNERGÉTIQUE",
-      "LIMONADE",
-      "MOJITO",
-      "CHAMPAGNE",
-      "EXPRESSO",
-      "COLA"
+    "language": "fr",
+    "categories": [
+      {
+        "category": "Fruits",
+        "words": ["POMME", "ORANGE", "FRAISE", "RAISIN", "POIRE", "CITRON", "AVOCAT", "KIWI", "GOYAVE", "ANANAS", "MANGUE", "CERISE", "PASTÈQUE", "MYRTILLE", "FRAMBOISE", "PÊCHE", "PRUNE", "NOIXDECOCO"]
+      },
+      {
+        "category": "Pays",
+        "words": ["ALLEMAGNE", "BRÉSIL", "FRANCE", "CANADA", "JAPON", "MEXIQUE", "ESPAGNE", "PORTUGAL", "CHILI", "ARGENTINE", "ITALIE", "CHINE", "RUSSIE", "INDE", "AUSTRALIE", "ANGLETERRE", "SUÈDE", "NORVÈGE", "ÉGYPTE"]
+      },
+      {
+        "category": "Nourriture",
+        "words": ["PIZZA", "HAMBURGER", "PÂTES", "SUSHI", "SANDWICH", "OMELETTE", "SALADE", "SOUPE", "STEAK", "CRÊPE", "TACO", "LASAGNE", "PAIN", "RIZ", "CHOCOLAT", "FRITES", "BISCUIT", "FROMAGE"]
+      },
+      {
+        "category": "Objets de cuisine",
+        "words": ["CUILLÈRE", "FOURCHETTE", "COUTEAU", "ASSIETTE", "VERRE", "POÊLE", "CASSEROLE", "BOL", "TASSE", "CUISINIÈRE", "MICROONDES", "MIXEUR", "RÉFRIGÉRATEUR", "GRILLEPAIN", "FOUR", "BOUILLOIRE", "RÂPE", "LOUCHE", "PLATEAU"]
+      },
+      {
+        "category": "Animaux",
+        "words": ["CHIEN", "CHAT", "ÉLÉPHANT", "TIGRE", "LION", "OURS", "CHEVAL", "VACHE", "MOUTON", "CHÈVRE", "SINGE", "KANGOUROU", "ZÈBRE", "RENARD", "LOUP", "GIRAFE", "LAPIN", "DAUPHIN", "AIGLE", "CROCODILE"]
+      },
+      {
+        "category": "Véhicules",
+        "words": ["VOITURE", "CAMION", "BUS", "VÉLO", "MOTO", "TRAIN", "AVION", "HÉLICOPTERO", "BATEAU", "SOUSMARIN", "TRACTEUR", "SCOOTER", "AMBULANCE", "TAXI", "JET", "FOURGONNETTE", "FERRY", "CROISIÈRE"]
+      },
+      {
+        "category": "Couleurs",
+        "words": ["ROUGE", "BLEU", "VERT", "JAUNE", "ORANGE", "VIOLET", "ROSE", "NOIR", "BLANC", "MARRON", "GRIS", "CYAN", "MAGENTA", "BEIGE", "OR", "ARGENT", "INDIGO", "BORDEAUX"]
+      },
+      {
+        "category": "Marques",
+        "words": ["NIKE", "ADIDAS", "APPLE", "SAMSUNG", "MICROSOFT", "TESLA", "HONDA", "SONY", "AMAZON", "GOOGLE", "PEPSI", "FERRARI", "MERCEDES", "SUBWAY"]
+      },
+      {
+        "category": "Boissons",
+        "words": ["EAU", "CAFÉ", "THÉ", "JUS", "LAIT", "SODA", "VIN", "BIÈRE", "WHISKY", "VODKA", "SMOOTHIE", "MILKSHAKE", "ÉNERGÉTIQUE", "LIMONADE", "MOJITO", "CHAMPAGNE", "EXPRESSO", "COLA"]
+      }
+    ],
+    "specialCategories": [
+      {
+        "category": "Football",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["GARDIEN", "DEFENSEUR", "LATERAL", "MILIEUDEFENSIF", "MILIEU", "ATTAQUANT", "AILIER", "LIBERO", "CAPITAINE", "BUTEUR"] },
+          { "subcategory": "Actions", "words": ["PENALTY", "HORSJEU", "CORNER", "DRIBBLE", "HATTRICK", "PROLONGATION", "FAUTE", "VAR", "REMPLACANT", "TETE", "VOLLEY", "REPRISE", "TACLE", "FRAPPE"] },
+          { "subcategory": "Équipes", "words": ["FLAMENGO", "BARCELONE", "LIVERPOOL", "CHELSEA", "JUVENTUS", "SANTOS", "PALMEIRAS", "CORINTHIANS", "REALMADRID", "PSG", "MILAN", "BAYERN"] },
+          { "subcategory": "Joueurs", "words": ["NEYMAR", "PELE", "MESSI", "MBAPPE", "RONALDO", "ZIDANE", "MARADONA", "RONALDINHO", "BENZEMA", "GRIEZMANN", "CRISTIANO"] }
+        ]
+      },
+      {
+        "category": "Basketball",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["MENEUR", "AILIER", "PIVOT", "ARRIERE", "AILIERFORT", "COACH"] },
+          { "subcategory": "Actions", "words": ["DUNK", "LAYUP", "TROISPOINTS", "REBOND", "PASSEDECISIVE", "FAUTE", "LANCERFRANC", "BUZZER", "CONTRE", "INTERCEPTION", "DRIBBLE"] },
+          { "subcategory": "Équipes", "words": ["LAKERS", "WARRIORS", "CELTICS", "BULLS", "HEAT", "NETS", "KNICKS", "SPURS", "BUCKS", "RAPTORS", "SUNS"] },
+          { "subcategory": "Joueurs", "words": ["JORDAN", "LEBRON", "CURRY", "KOBE", "SHAQ", "DURANT", "MAGIC", "WADE", "DONCIC", "GANNIS"] }
+        ]
+      },
+      {
+        "category": "Volleyball",
+        "subcategories": [
+          { "subcategory": "Positions", "words": ["PASSEUR", "LIBERO", "POINTU", "CENTRAL", "OPPOSE", "DEFENSEUR"] },
+          { "subcategory": "Actions", "words": ["SERVICE", "SMASH", "BLOC", "PASSE", "DEFENSE", "ECHANGE", "ACE", "ROTATION", "RECEPTION", "MANCHETTE"] }
+        ]
+      },
+      {
+        "category": "Formule 1",
+        "subcategories": [
+          { "subcategory": "Pilotes", "words": ["VERSTAPPEN", "HAMILTON", "SENNA", "SCHUMACHER", "VETTEL", "ALONSO", "PIQUET", "PROST", "LECLERC", "NORRIS", "GASLY", "OCON"] },
+          { "subcategory": "Équipes", "words": ["FERRARI", "MCLAREN", "MERCEDES", "REDBULL", "WILLIAMS", "ALPINE", "HAAS", "ASTONMARTIN", "SAUBER"] },
+          { "subcategory": "Termes", "words": ["PODIUM", "STAND", "GRILLE", "DEPASSEMENT", "PNEU", "QUALIFICATIONS", "SAFETYCAR", "DRS", "CIRCUIT", "TELEMETRIE", "VIRAGE", "POLEPOSITION"] }
+        ]
+      },
+      {
+        "category": "Minecraft",
+        "subcategories": [
+          { "subcategory": "Blocs", "words": ["OBSIDIENNE", "ROCHEMENT", "PIERRE", "GRAVIER", "GRES", "PLANCHES", "VERRE", "PIERRELUMINEUSE", "QUARTZ", "BRIQUE", "BOIS", "LAINE"] },
+          { "subcategory": "Objets", "words": ["DIAMANT", "EMERAUDE", "PIOCHE", "EPEE", "ARC", "TORCHE", "COFFRE", "BOUCLIER", "BOUSSOLE", "FOUR", "SEAU", "POMME", "HORLOGE", "POMMEDOR"] },
+          { "subcategory": "Entités", "words": ["CREEPER", "ZOMBIE", "SQUELETTE", "VILLAGEOIS", "ENDERMAN", "ARAIGNEE", "GOLEM", "WITHER", "GHAST", "COCHON", "MOUTON", "PIGLIN"] },
+          { "subcategory": "Général", "words": ["REDSTONE", "PORTAIL", "ENCHANTEMENT", "NETHERITE", "SURVIE", "BIOME", "CRAFTING", "MINE", "VILLAGE", "GROTTE", "CREATIF"] }
+        ]
+      },
+      {
+        "category": "Fortnite",
+        "subcategories": [
+          { "subcategory": "Objets", "words": ["PIOCHE", "BOUCLIER", "PARAPENTE", "RAMPA", "SOIN", "SAC", "GRENADE", "VBUCKS", "FUSIL", "KITDESOIN"] },
+          { "subcategory": "Termes", "words": ["TEMPETE", "BUTIN", "VICTOIRE", "EMBUSCADE", "ESCOUADE", "REAPPARITION", "CONSTRUCTION", "SNIPER", "TIR", "COUVERTURE"] },
+          { "subcategory": "Général", "words": ["BATTLEROYALE", "SAISON", "SKIN", "EMOTE", "CARTE", "BOUTIQUE", "CREATIF", "COFFRE", "LOBBY"] }
+        ]
+      },
+      {
+        "category": "Roblox",
+        "subcategories": [
+          { "subcategory": "Termes", "words": ["AVATAR", "ROBUX", "SERVEUR", "SCRIPT", "LOBBY", "BADGE", "GAMEPASS", "CATALOGUE", "CONSTRUCTEUR", "GROUPE"] },
+          { "subcategory": "Jeux Populaires", "words": ["ADOPT", "BROOKHAVEN", "BLOXBURG", "OBBY", "SIMULATEUR", "TOWER", "PIGGY", "ARSENAL", "JAILBREAK"] },
+          { "subcategory": "Général", "words": ["DEVELOPPEUR", "STUDIO", "EXPERIENCE", "PLATEFORME", "MODERATEUR", "COMMUNAUTE", "CREATEUR", "MONDE"] }
+        ]
+      },
+      {
+        "category": "Free Fire",
+        "subcategories": [
+          { "subcategory": "Personnages", "words": ["KAPELLA", "ALOK", "WUKONG", "HAYATO", "KELLY", "MOCO", "CHRONO", "NIKITA", "MAXIM", "MIGUEL", "MISHA"] },
+          { "subcategory": "Armas", "words": ["FUSIL", "GRENADE", "SNIPER", "PISTOLET", "FUSILASSAUT", "COUTEAU", "KATANA", "MITRAILLEUSE", "POELE"] },
+          { "subcategory": "Argot et Termes", "words": ["BOOYAH", "HEADSHOT", "RUSHER", "ESCOUADE", "CRITIQUE", "CLUTCH", "CAMPER", "RECHARGER", "AIRDROP", "GUILDE"] },
+          { "subcategory": "Cartes", "words": ["BERMUDA", "PURGATOIRE", "KALAHARI", "NEXTERRA", "SOLARA", "ALPES"] }
+        ]
+      },
+      {
+        "category": "Valorant",
+        "subcategories": [
+          { "subcategory": "Agents", "words": ["JETT", "SAGE", "SOVA", "REYNA", "KILLJOY", "BREACH", "OMEN", "PHOENIX", "CYPHER", "VIPER", "RAZE", "NEON", "CHAMBER"] },
+          { "subcategory": "Armes", "words": ["VANDAL", "PHANTOM", "OPERATOR", "SHERIFF", "GHOST", "JUDGE", "SPECTRE", "ODIN", "MARSHAL", "CLASSIC"] },
+          { "subcategory": "Cartes", "words": ["HAVEN", "ICEBOX", "ASCENT", "SPLIT", "BIND", "BREEZE", "LOTUS", "SUNSET", "PEARL", "FRACTURE"] },
+          { "subcategory": "Termes", "words": ["SPIKE", "CLUTCH", "ULTIME", "DESAMORCER", "FUMEE", "FLASH", "ECONOMIE", "FORCE", "ROUNDECO", "BANG"] }
+        ]
+      }
     ]
   }
-]
-}
 ]
